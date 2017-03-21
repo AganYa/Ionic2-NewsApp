@@ -6,3 +6,10 @@ npm install；
 
 
 ionic serve
+
+
+效果如下：
+
+![Alt text](https://github.com/AganYa/Ionic2-NewsApp/raw/master/Screenshots/NewsApp01.png)
+
+![Alt text](https://github.com/AganYa/Ionic2-NewsApp/raw/master/Screenshots/NewsApp01.png)
