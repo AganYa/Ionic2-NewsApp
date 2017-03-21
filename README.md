@@ -12,4 +12,4 @@ ionic serve
 
 ![Alt text](https://github.com/AganYa/Ionic2-NewsApp/raw/master/Screenshots/NewsApp01.png)
 
-![Alt text](https://github.com/AganYa/Ionic2-NewsApp/raw/master/Screenshots/NewsApp01.png)
+![Alt text](https://github.com/AganYa/Ionic2-NewsApp/raw/master/Screenshots/NewsApp02.png)
