@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar color="primary">
+   
+    <ion-title>
+     新闻头条
+    </ion-title>
+   
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding overflow-scroll="true">
+<ion-list>
+  <ion-item *ngFor="let item of items">
+    <ion-thumbnail *ngIf="item.middle_image != null" item-left>
+      <img src="{{item.middle_image.url}}">
+    </ion-thumbnail>
+    <br/>
+    <h2 style="height: 13px">{{item.title}}</h2>
+    <br/>
+    <p style="font-size: 10">
+      <ion-icon>{{item.date}}</ion-icon>
+    </p>
+    <button ion-button clear item-right (click)="viewItem(item)">查看详情</button>
+  </ion-item>
+</ion-list>
+</ion-content>

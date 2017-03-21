@@ -1,0 +1,83 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            {{item.title}}
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding overflow-scroll="true">
+
+    <ion-card>
+        <img *ngIf="item.thumbnail != null" src="{{item.thumbnail}}" />
+        <ion-card-content>
+            <ion-card-title>
+                {{item.title}}
+            </ion-card-title>-->
+
+            <!--<ion-list>
+            <ion-item>
+            <ion-icon name="time" item-left></ion-icon>
+            时间
+            <ion-note item-right>
+                {{item.datetime}}
+            </ion-note>
+            </ion-item>
+
+            <ion-item>
+            <ion-icon name="thumbs-up" item-left></ion-icon>
+            Score
+            <ion-note item-right>
+                {{item.score}}
+            </ion-note>
+            </ion-item>
+
+             <ion-item>
+            <ion-icon name="chatboxes" item-left></ion-icon>
+            Author
+            <ion-note item-right>
+                {{item.num_comments}}
+            </ion-note>
+            </ion-item>
+        </ion-list>-->
+        <a ion-button block target="_bank" href="http://m.gmw.cn/gallery/201703/20/24007050.html">View On Reddit</a>
+        </ion-card-content>
+    </ion-card>
+
+
+
+    <!--<ion-card>
+    <img *ngIf="item.preview != null" src="{{item.preview.images[0].source.url}}"/>
+    <ion-card-content>
+        <ion-card-title>
+            {{item.title}}
+        </ion-card-title>
+        <ion-list>
+            <ion-item>
+            <ion-icon name="person" item-left></ion-icon>
+            Author
+            <ion-note item-right>
+                {{item.author}}
+            </ion-note>
+            </ion-item>
+
+             <ion-item>
+            <ion-icon name="thumbs-up" item-left></ion-icon>
+            Score
+            <ion-note item-right>
+                {{item.score}}
+            </ion-note>
+            </ion-item>
+
+             <ion-item>
+            <ion-icon name="chatboxes" item-left></ion-icon>
+            Author
+            <ion-note item-right>
+                {{item.num_comments}}
+            </ion-note>
+            </ion-item>
+        </ion-list>
+        <a ion-button block target="_bank" href="http://reddit.com/{{item.permalink}}">View On Reddit</a>  
+    </ion-card-content>
+    </ion-card>-->
+</ion-content>
